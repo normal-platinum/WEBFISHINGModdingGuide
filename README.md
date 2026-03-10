@@ -182,6 +182,7 @@ You can click `Clear` on the output to clear the output at any point
    ```
    - Replace `authorname` with your username.
    - Replace `modname` with the name of your mod.
+**Note:** If you do not have a C# assembly, do not include AssemblyPath in your manifest.json! It will cause your mod not to work.
 **Note:** The Dependencies field can be removed if your mod does not have any dependencies.
 
 If you're using my Comfy API, like the example project does, make sure to add my API to your manifest.json!
