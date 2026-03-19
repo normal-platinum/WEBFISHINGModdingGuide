@@ -127,7 +127,9 @@ The next instructions are entirely optional, but make development and finding er
 
 ![image](https://github.com/user-attachments/assets/2e9a3990-9c3f-4fed-a030-b93260f48c87)
 
-9. Click `Replace...`, then click `Replace All (NO UNDO)`  
+9. Click `Replace...`, then click `Replace All (NO UNDO)`
+
+- **Note**: I recommend opening /Scenes/Singletons/SteamNetwork.gd and changing line 148 back to normal. This will probably save you some headache later on.
 
 Now, if you `print("anything to the console")` or get any errors, you can find them in the output section at the very bottom of your screen
 
